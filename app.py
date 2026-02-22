@@ -27,7 +27,7 @@ sulphates_ = st.number_input('sulphates_')
 alcohol_ = st.number_input('alcohol_')
 quality_ = st.number_input('quality_')
 
-input_data = pd.dataframe({
+input_data = pd.DataFrame({
     "fixed_acidity":[fixed_acidity],
     "volatile_acidity":[volatile_acidity],
     "citric_acid":[citric_acid],
