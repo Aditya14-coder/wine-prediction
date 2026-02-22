@@ -27,7 +27,7 @@ sulphates_ = st.number_input('sulphates_')
 alcohol_ = st.number_input('alcohol_')
 quality_ = st.number_input('quality_')
 
-input_data = pd.dataframe([[
+input_data = pd.dataframe({
     "fixed_acidity":[fixed_acidity],
     "volatile_acidity":[volatile_acidity],
     "citric_acid":[citric_acid],
@@ -40,7 +40,7 @@ input_data = pd.dataframe([[
     "sulphates_":[sulphates_],
     "alcohol_":[alcohol_],
     "quality_":[quality_]
-]])
+})
 
 if st.button('Predict'):
   prediction = model.predict(input_data)[0]
