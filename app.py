@@ -32,7 +32,7 @@ input_data = pd.DataFrame([[
     volatile_acidity,
     citric_acid,
     residual_sugar,
-    chlorides_,
+    chlorides,
     free_sulfur_dioxide,
     total_sulfur_dioxide,
     density,
