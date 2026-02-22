@@ -28,18 +28,18 @@ alcohol_ = st.number_input('alcohol_')
 quality_ = st.number_input('quality_')
 
 input_data = pd.dataframe([[
-    "Fixed Acidity":[fixed_acidity],
-    "Volatile Acidity":[volatile_acidity],
-    "Citric acid":[citric_acid],
-    "Residual Sugar":[residual_sugar],
-    "Chlorides":[chlorides_],
-    "Free Sulfur Dioxide":[free_sulfur_dioxide],
-    "Total Sulfur Dioxide":[total_sulfur_dioxide],
-    "Density":[density_],
-    "PH":[pH_],
-    "Sulphates":[sulphates_],
-    "Alcohol":[alcohol_],
-    "Quality":[quality_]
+    "fixed_acidity":[fixed_acidity],
+    "volatile_acidity":[volatile_acidity],
+    "citric_acid":[citric_acid],
+    "residual_sugar":[residual_sugar],
+    "chlorides_":[chlorides_],
+    "free_sulfur_dioxide":[free_sulfur_dioxide],
+    "total_sulfur_dioxide":[total_sulfur_dioxide],
+    "density_":[density_],
+    "pH_":[pH_],
+    "sulphates_":[sulphates_],
+    "alcohol_":[alcohol_],
+    "quality_":[quality_]
 ]])
 
 if st.button('Predict'):
