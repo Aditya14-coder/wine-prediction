@@ -40,7 +40,7 @@ input_data = pd.DataFrame([[
     sulphates,
     alcohol,
     quality
-]])
+]]) columns = model.feature_names_in_)
 
 if st.button('Predict'):
   prediction = model.predict(input_data)[0]
